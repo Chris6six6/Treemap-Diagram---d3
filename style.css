@@ -1,0 +1,39 @@
+body
+{
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, rgba(7,21,31,1) 22%, rgba(10,23,33,1) 48%, rgba(7,22,33,1) 75%);
+}
+
+svg {
+    padding-top: 1.5rem;
+    font: 10px sans-serif;
+    display: block;
+    margin: auto;
+    user-select: none;
+}
+
+#title {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.tile:hover
+{
+    cursor: pointer;
+    fill: #ddd
+}
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #f2f2f2;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
